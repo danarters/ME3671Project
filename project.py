@@ -5,8 +5,6 @@ Handle_r = 6.
 n_1 = 84.
 T_in = F_app*Handle_r
 hp_in = T_in*n_1*2.*(3.1415926)/(12.*33000.)
-pi = 3.14159265
-
 
 def printNumbers(gear):
 	for (name, number) in gear.iteritems():
